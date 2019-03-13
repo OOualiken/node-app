@@ -16,7 +16,7 @@
       <fieldset><legend> nom de votre ville </legend>
       <label for="field6"><span> Ville
       <span class="required">*</span></span>
-  
+
       <textarea name="name" class="textarea-field"></textarea></label>
       <label><span> </span><input type="submit" value="Submit" /></label>
       </fieldset>
