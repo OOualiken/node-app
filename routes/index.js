@@ -8,12 +8,12 @@ router.get('/', function(req, res, next) {
 
 
 
-router.get('/ville', function(req, res) {
-   var id = req.query.field6;
+router.post('/ville', function(req, res) {
+   //var id = req.query.field6;
     //res.send(" " + req.params.field6);
     //console.log(id);
    // res.send("hello=>" + id);
-    res.render('ville', { nom_ville: id });
+    res.render('ville', { nom_ville: req.body.name});
 });
 
 module.exports = router;
