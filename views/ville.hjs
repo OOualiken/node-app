@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ nom_ville }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+  </head>
+  <body>
+    <h1>{{ nom_ville }}</h1>
+    <p>
+       modifié  :<br />
+        <img src="images/tt.png" alt="Photo de montagne" title="C'est beau l!" />
+    </p>
+
+
+
+    <p>Welcome to {{ title }}</p>
+  </body>
+</html>

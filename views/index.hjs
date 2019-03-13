@@ -11,6 +11,18 @@
        modifié  :<br />
         <img src="images/tt.png" alt="Photo de montagne" title="C'est beau l!" />
     </p>
+
+      <div class="form-style-3">
+      <form action = "/ville" methode ="get">
+      <fieldset><legend> nom de votre ville </legend>
+      <label for="field6"><span> Ville
+      <span class="required">*</span></span>
+      <textarea name="field6" class="textarea-field"></textarea></label>
+      <label><span> </span><input type="submit" value="Submit" /></label>
+      </fieldset>
+      </form>
+      </div>
+
     <p>Welcome to {{ title }}</p>
   </body>
 </html>

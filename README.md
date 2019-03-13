@@ -1,5 +1,5 @@
 # node-app
-  resumer :   
+  resumer :
 
 pour cloner un repo : 
 - il faut copier le lien du repo en et sur notre console faire : 
