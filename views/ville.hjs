@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ nom_ville }}</title>
+    <title>{{ AddCity() }}</title>
     <h1>{{ Type_err }}</h1>
     <link rel='stylesheet' href='/stylesheets/style.css' />
 
